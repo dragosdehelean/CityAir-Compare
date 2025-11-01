@@ -1,0 +1,20 @@
+* text=auto
+
+# Default to LF in repo
+* eol=lf
+
+# Keep PowerShell scripts CRLF for Windows compatibility
+*.ps1 eol=crlf
+
+# Mark shell scripts as text with LF
+*.sh text eol=lf
+
+# Binary assets
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.webp binary
+*.ico binary
+*.pdf binary
+
